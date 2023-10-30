@@ -3,6 +3,7 @@ import React from "react";
 import Layout from "../components/Layout/Layout";
 import Category from "../components/categorry/Category";
 import Banner from "../components/Banner/Banner";
+import Products from "../components/Products/Products";
 
 const Home = () => {
   return (
@@ -10,9 +11,7 @@ const Home = () => {
       <Category />
 
       <Banner />
-      <View>
-        <Text>Home Page</Text>
-      </View>
+      <Products />
     </Layout>
   );
 };
