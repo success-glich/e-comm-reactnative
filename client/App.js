@@ -12,7 +12,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={Home}
+        <Stack.Screen name="home" component={Home}
           options={
             {
               headerShown: false
@@ -20,7 +20,7 @@ function App() {
           }
         />
 
-        <Stack.Screen name="About" component={About}
+        <Stack.Screen name="about" component={About}
         />
         <Stack.Screen name="mobile" component={About} />
         <Stack.Screen name="productDetail" component={ProductDetail} />
